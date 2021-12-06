@@ -1,0 +1,20 @@
+.container {
+    display: grid;
+    grid-template-columns: 12fr;
+    gap: 5px;
+}
+
+.color1 {
+    background-color: darkslategray;
+}
+
+.color2 {
+    background-color: bisque;
+}
+ .color3 {
+    background-color: coral;
+ }
+
+ .color4 {
+    background-color: cornflowerblue;
+     }
