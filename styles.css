@@ -1,23 +1,46 @@
+h1 {
+    text-align: center;
+}
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     margin: auto;
-    gap: 5px;
-    width: 100vw
-    ;
+    max-width: 1200px;
+    gap: 0px;
+    background-color: rgba(255, 80, 249, 0.297);
 }
 
 .color1 {
-    background-color: darkslategray;
+    background-color: #2f4f4f;
+    height: 100px;
 }
 
 .color2 {
     background-color: bisque;
+    height: 100px;
+    
 }
+
+
  .color3 {
-    background-color: coral;
+    background-color: rgba(255, 80, 249, 0.297);
+    height: 100px;
+    animation: blink 1s steps(1, end) infinite;
  }
+ 
+ @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
  .color4 {
     background-color: cornflowerblue;
+    height: 100px;
      }
